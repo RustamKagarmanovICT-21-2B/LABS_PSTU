@@ -12,6 +12,7 @@ while flag != 1:
                 flag = 1
 x = list(map(int, x))
 a = itertools.permutations(x)
+print('')
 for i in a:
     print(i) 
     x.sort(reverse=True)

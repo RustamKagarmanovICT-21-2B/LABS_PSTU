@@ -5,7 +5,7 @@ int main()
 {
 setlocale(LC_ALL, "Russian");
 int x, mass[6];
-cout << "Введите число" << endl;;
+cout << "Введите число, для того чтобы узнать его перестановки и максимальную из них" << endl;;
 cin >> x;
 int A1 = x % 10;
 int A2 = (x % 100) / 10;

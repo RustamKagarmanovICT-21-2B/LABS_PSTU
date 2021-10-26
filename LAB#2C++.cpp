@@ -13,7 +13,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int temp;
 	int number = random(1, 100);
-	cout << "Попробуйте угадать число" << endl;
+	cout << "Угадайте число от 1 до 100" << endl;
 	for (int i = 1; i <= 7; i+=1) {
 		cout << 8 - i << " попыток осталось" << endl;
 		cin >> temp;

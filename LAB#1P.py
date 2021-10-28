@@ -1,9 +1,9 @@
 import itertools
-x = (input().split())
-flag = 0
-while flag != 1:
+x = (input().list()) """Ввод данных и преврвщение в список"""
+flag = 0 """Переменная ответачающая за true, false"""
+while flag != 1: 
     for i in range(len(x)-1):
-        for j in range(i+1, len(x)):
+        for j in range(i+1, len(x)): """Пока flag == 0 (то есть пока  , """
             if x[i] == x[j]:
                 flag = 0
                 x = (input().split())
